@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["src/transit_billing"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true

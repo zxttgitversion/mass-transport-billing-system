@@ -4,6 +4,8 @@ __pycache__/
 
 # Pytest cache
 .pytest_cache/
+.coverage
+htmlcov/
 
 # Virtual environment
 .venv/
